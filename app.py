@@ -23,3 +23,5 @@ if prompt := st.chat_input():
         st_callback = StreamlitCallbackHandler(st.container())
         response = agent.run(prompt, callbacks=[st_callback])
         st.write(response)
+
+st.write("Made with ❤️‍🔥| AfroLogicInsect")
